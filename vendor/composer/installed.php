@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'bluem-development/bluem-woocommerce',
+        'pretty_version' => '1.3.21.x-dev',
+        'version' => '1.3.21.9999999-dev',
+        'reference' => 'a90138eab20964489ae87143c2026eaa6857dbbe',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => false,
+    ),
+    'versions' => array(
+        'bluem-development/bluem-php' => array(
+            'pretty_version' => '2.3.3',
+            'version' => '2.3.3.0',
+            'reference' => '21c0735e70d3248c266d3fa0541083484e6b610f',
+            'type' => 'package',
+            'install_path' => __DIR__ . '/../bluem-development/bluem-php',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'bluem-development/bluem-woocommerce' => array(
+            'pretty_version' => '1.3.21.x-dev',
+            'version' => '1.3.21.9999999-dev',
+            'reference' => 'a90138eab20964489ae87143c2026eaa6857dbbe',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'selective/xmldsig' => array(
+            'pretty_version' => '3.0.0',
+            'version' => '3.0.0.0',
+            'reference' => 'fb9cdf2ecfcf4b65931db8796c7336a43b607d73',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../selective/xmldsig',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
